@@ -1,0 +1,33 @@
+class rectangle
+{
+  int length,breadth;
+  void setval(int l,int b)
+  {
+     length= l;
+     breadth= b;
+  }
+  void area()
+  {
+    int area;
+    area=length*breadth;
+    System.out.println("area of reactangle:"+area);
+  }
+  void perimeter()
+  {
+     int perimeter;
+     perimeter=2*length*breadth;
+     System.out.println("perimeter of reactangle:"+perimeter);
+  }
+     
+
+  public static void main(String[] args)
+  {
+    rectangle r=new rectangle();
+    r.setval(10,20);
+    System.out.println(area);
+    
+    
+  }
+}
+
+ 
