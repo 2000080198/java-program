@@ -1,0 +1,19 @@
+class update
+{
+  int a = 10;
+  void update(int newval)
+  {
+  a=newval;
+  }
+  void disp()
+  {
+      System.out.println("value of a is :"+a);
+  }
+  public static void main(String[] args)
+  {
+     update f=new update();
+     f.disp();
+     f.update(35);
+     f.disp();
+  }
+}
